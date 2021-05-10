@@ -15,7 +15,7 @@
 }
 .container .outer .inner {
     width: 100px;
-    height: 100px;
+    min-height: 100px;
 }
 .blue {
     background-color: blue;
@@ -45,3 +45,16 @@
 .space-evenly {
     justify-content: space-evenly;
 }
+.align-flex-start{
+    align-items: flex-start;
+}
+.align-flex-end{
+    align-items: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.align-strech{
+    align-items: stretch;
+}
+ 
